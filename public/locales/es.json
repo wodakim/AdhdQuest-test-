@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "ADHD Quests",
+    "subtitle": "Mejora tu productividad",
+    "loading": "Cargando tu aventura..."
+  },
+  "navigation": {
+    "settings": "Configuración",
+    "resetProgress": "Reiniciar Progreso",
+    "about": "Sobre ADHD Quests",
+    "resetConfirmTitle": "¿Reiniciar Progreso?",
+    "resetConfirmMessage": "Esto eliminará todas tus tareas, puntos de experiencia y progreso del juego. Esta acción no se puede deshacer.",
+    "cancel": "Cancelar",
+    "resetEverything": "Reiniciar Todo",
+    "greeting": {
+      "morning": "Buenos días",
+      "afternoon": "Buenas tardes",
+      "evening": "Buenas noches"
+    },
+    "level": "Nivel",
+    "quester": "Aventurero"
+  },
+  "dashboard": {
+    "yourQuests": "Tus Misiones",
+    "completeQuests": "Misiones Completadas",
+    "addNewQuest": "Agregar Nueva Misión",
+    "dailyQuote": "Frase del Día",
+    "focusTip": "Consejo de Enfoque",
+    "noQuests": "¡Aún no hay misiones! Agrega tu primera misión para comenzar tu aventura."
+  },
+  "taskForm": {
+    "title": "Título de la Misión",
+    "description": "Descripción (opcional)",
+    "difficulty": "Dificultad",
+    "difficulties": {
+      "easy": "Fácil",
+      "medium": "Media",
+      "hard": "Difícil"
+    },
+    "dueDate": "Fecha límite (opcional)",
+    "recurring": "Recurrente",
+    "recurringOptions": {
+      "none": "Ninguna",
+      "daily": "Diaria",
+      "weekly": "Semanal",
+      "monthly": "Mensual"
+    },
+    "voiceRecognition": "Reconocimiento de Voz",
+    "recordingInstructions": "Haz clic para grabar. Habla claramente.",
+    "recording": "Grabando...",
+    "errorRecording": "Error al grabar. Por favor intenta de nuevo.",
+    "addQuest": "Agregar Misión",
+    "cancel": "Cancelar"
+  },
+  "taskList": {
+    "completed": "Completadas",
+    "dueToday": "Para Hoy",
+    "upcoming": "Próximas",
+    "dueDate": "Fecha límite: ",
+    "actions": {
+      "complete": "Completar",
+      "edit": "Editar",
+      "delete": "Eliminar"
+    }
+  },
+  "profileCard": {
+    "playerStats": "Estadísticas del Jugador",
+    "level": "Nivel",
+    "xp": "XP",
+    "nextLevel": "Siguiente nivel",
+    "questsCompleted": "Misiones completadas",
+    "streak": "Racha actual",
+    "days": "días"
+  },
+  "jokeButton": {
+    "title": "¿Necesitas reír?",
+    "button": "Chiste Oscuro Aleatorio"
+  },
+  "settings": {
+    "language": "Idioma",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français"
+    },
+    "mascotSkin": "Aspecto de la Mascota",
+    "unlockNew": "¡Completa misiones para desbloquear nuevos aspectos!"
+  }
+}

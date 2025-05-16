@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "ADHD Quests",
+    "subtitle": "Level up your productivity",
+    "loading": "Loading your adventure..."
+  },
+  "navigation": {
+    "settings": "Settings",
+    "resetProgress": "Reset Progress",
+    "about": "About ADHD Quests",
+    "resetConfirmTitle": "Reset Progress?",
+    "resetConfirmMessage": "This will delete all your tasks, experience points, and game progress. This action cannot be undone.",
+    "cancel": "Cancel",
+    "resetEverything": "Reset Everything",
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "level": "Level",
+    "quester": "Quester"
+  },
+  "dashboard": {
+    "yourQuests": "Your Quests",
+    "completeQuests": "Complete Quests",
+    "addNewQuest": "Add New Quest",
+    "dailyQuote": "Daily Quote",
+    "focusTip": "Focus Tip",
+    "noQuests": "No quests yet! Add your first quest to begin your adventure."
+  },
+  "taskForm": {
+    "title": "Quest Title",
+    "description": "Quest Description (optional)",
+    "difficulty": "Difficulty",
+    "difficulties": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "dueDate": "Due Date (optional)",
+    "recurring": "Recurring",
+    "recurringOptions": {
+      "none": "None",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "voiceRecognition": "Voice Recognition",
+    "recordingInstructions": "Click to record. Speak clearly.",
+    "recording": "Recording...",
+    "errorRecording": "Error with recording. Please try again.",
+    "addQuest": "Add Quest",
+    "cancel": "Cancel"
+  },
+  "taskList": {
+    "completed": "Completed",
+    "dueToday": "Due Today",
+    "upcoming": "Upcoming",
+    "dueDate": "Due: ",
+    "actions": {
+      "complete": "Complete",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "profileCard": {
+    "playerStats": "Player Stats",
+    "level": "Level",
+    "xp": "XP",
+    "nextLevel": "Next level",
+    "questsCompleted": "Quests completed",
+    "streak": "Current streak",
+    "days": "days"
+  },
+  "jokeButton": {
+    "title": "Need a laugh?",
+    "button": "Random Dark Joke"
+  },
+  "settings": {
+    "language": "Language",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français"
+    },
+    "mascotSkin": "Mascot Skin",
+    "unlockNew": "Complete quests to unlock new skins!"
+  }
+}

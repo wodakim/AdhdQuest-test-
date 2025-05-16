@@ -1,0 +1,89 @@
+{
+  "app": {
+    "title": "ADHD Quests",
+    "subtitle": "Améliorez votre productivité",
+    "loading": "Chargement de votre aventure..."
+  },
+  "navigation": {
+    "settings": "Paramètres",
+    "resetProgress": "Réinitialiser la Progression",
+    "about": "À propos de ADHD Quests",
+    "resetConfirmTitle": "Réinitialiser la Progression?",
+    "resetConfirmMessage": "Cela supprimera toutes vos tâches, points d'expérience et progression de jeu. Cette action ne peut pas être annulée.",
+    "cancel": "Annuler",
+    "resetEverything": "Tout Réinitialiser",
+    "greeting": {
+      "morning": "Bonjour",
+      "afternoon": "Bon après-midi",
+      "evening": "Bonsoir"
+    },
+    "level": "Niveau",
+    "quester": "Aventurier"
+  },
+  "dashboard": {
+    "yourQuests": "Vos Quêtes",
+    "completeQuests": "Quêtes Terminées",
+    "addNewQuest": "Ajouter une Nouvelle Quête",
+    "dailyQuote": "Citation du Jour",
+    "focusTip": "Conseil de Concentration",
+    "noQuests": "Pas encore de quêtes! Ajoutez votre première quête pour commencer votre aventure."
+  },
+  "taskForm": {
+    "title": "Titre de la Quête",
+    "description": "Description (facultatif)",
+    "difficulty": "Difficulté",
+    "difficulties": {
+      "easy": "Facile",
+      "medium": "Moyenne",
+      "hard": "Difficile"
+    },
+    "dueDate": "Date d'échéance (facultatif)",
+    "recurring": "Récurrence",
+    "recurringOptions": {
+      "none": "Aucune",
+      "daily": "Quotidienne",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuelle"
+    },
+    "voiceRecognition": "Reconnaissance Vocale",
+    "recordingInstructions": "Cliquez pour enregistrer. Parlez clairement.",
+    "recording": "Enregistrement...",
+    "errorRecording": "Erreur d'enregistrement. Veuillez réessayer.",
+    "addQuest": "Ajouter la Quête",
+    "cancel": "Annuler"
+  },
+  "taskList": {
+    "completed": "Terminées",
+    "dueToday": "Pour Aujourd'hui",
+    "upcoming": "À Venir",
+    "dueDate": "Échéance: ",
+    "actions": {
+      "complete": "Terminer",
+      "edit": "Modifier",
+      "delete": "Supprimer"
+    }
+  },
+  "profileCard": {
+    "playerStats": "Statistiques du Joueur",
+    "level": "Niveau",
+    "xp": "XP",
+    "nextLevel": "Niveau suivant",
+    "questsCompleted": "Quêtes terminées",
+    "streak": "Série actuelle",
+    "days": "jours"
+  },
+  "jokeButton": {
+    "title": "Besoin de rire?",
+    "button": "Blague Noire Aléatoire"
+  },
+  "settings": {
+    "language": "Langue",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "fr": "Français"
+    },
+    "mascotSkin": "Apparence de la Mascotte",
+    "unlockNew": "Complétez des quêtes pour débloquer de nouvelles apparences!"
+  }
+}

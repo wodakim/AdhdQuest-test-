@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-rose: #f8d7db;
+  --color-lavender: #d7dbf8;
+  --color-blue: #d7f1f8;
+  --color-mint: #d7f8e8;
+  
+  --color-rose-dark: #e4a7af;
+  --color-lavender-dark: #a7afe4;
+  --color-blue-dark: #a7dae4;
+  --color-mint-dark: #a7e4c8;
+  
+  --color-text-primary: #433e56;
+  --color-text-secondary: #6e6a7c;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  transition: all 0.3s;
+  background-color: rgba(106, 115, 125, 0.2);
+  &:hover {
+    background-color: rgba(106, 115, 125, 0.27);
+  }
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--color-text-primary);
+  background-color: #fafafa;
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg transition-all duration-200 font-medium;
+  }
+  
+  .btn-primary {
+    @apply bg-[#d7dbf8] hover:bg-[#a7afe4] text-[#433e56];
+  }
+  
+  .btn-secondary {
+    @apply bg-[#f8d7db] hover:bg-[#e4a7af] text-[#433e56];
+  }
+  
+  .btn-success {
+    @apply bg-[#d7f8e8] hover:bg-[#a7e4c8] text-[#433e56];
+  }
+  
+  .btn-danger {
+    @apply bg-[#f8d7db] hover:bg-[#e4a7af] text-[#433e56];
+  }
+  
+  .input {
+    @apply px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#d7dbf8];
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm p-4 transition-all duration-300;
+  }
+  
+  .task-card {
+    @apply flex items-center justify-between p-3 mb-2 rounded-lg border-l-4 hover:shadow-md transition-all duration-200;
+  }
+  
+  .task-card--easy {
+    @apply border-l-[#d7f8e8];
+  }
+  
+  .task-card--medium {
+    @apply border-l-[#d7f1f8];
+  }
+  
+  .task-card--hard {
+    @apply border-l-[#f8d7db];
+  }
+  
+  .xp-gain {
+    @apply fixed z-50 text-lg font-bold text-[#6e6a7c] animate-float-up;
+  }
+  
+  .level-up {
+    @apply fixed inset-0 bg-black/50 flex items-center justify-center z-50;
+  }
+  
+  .level-up-content {
+    @apply bg-white p-6 rounded-xl text-center shadow-lg transform scale-0 animate-scale-in;
+  }
+  
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes scaleIn {
+    0% {
+      transform: scale(0);
+    }
+    80% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate-float-up {
+    animation: floatUp 1.5s forwards;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.5s forwards;
+  }
+}
